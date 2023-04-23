@@ -1,0 +1,175 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*------------------------------
+--------Hero area start-------*/
+header {
+  padding: 20px 20px;
+}
+
+.nav-link{
+    list-style-type: none;
+    margin: auto;
+}
+.nav-link li {
+    display: inline-block;
+    padding:0 20px ;
+}
+.nav-link a:hover{
+    color: #ff4136;   
+}
+.nav-link a{
+    transition: all 0.3s ease-out 0s;
+    text-decoration: none;
+    color: rgb(189, 188, 188);
+}
+.nav_icon_box i {
+  font-size: 22px;
+  padding: 5px 7px;
+  margin: 5px 5px;
+}
+.icon:hover{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: rgb(251, 59, 59) !important;
+}
+.nav_icon_box i:not(:last-child) {
+  color: rgb(189, 188, 188);
+}
+.nav_icon_box i:last-child {
+  border: 2px solid black;
+}
+.toggle-nav-icon{
+    position: relative;
+}
+.toggle-nav{
+    position: absolute;
+    left: -133px;
+    top: 58px;
+    z-index: 9999;
+    background-color: #0c1923;
+    list-style-type: none;
+    padding-left: 0 !important;
+    animation: growDown .5s ease-in-out forwards;
+    transform-origin: top center;
+}
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.toggle-nav li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 95px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+}
+.toggle-nav li:hover{
+    background-color: #192e3e;
+}
+.toggle-nav a{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.carousel-caption .slider-heading{
+    color: black;
+    
+}
+.carousel-link{
+    font-size: 10px;
+    font-weight: 300 !important;
+}
+.slider-heading span{
+    color: #ff4136;
+}
+.carousel-caption a{
+    color: #000;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.carousel-caption a::before{
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+}
+.carousel-caption a:hover{
+    color: #ff4136;
+}
+.carousel-caption a:hover:before {
+    background: #ff4136 none repeat scroll 0 0;
+}
+button i {
+  color: black;
+  cursor: pointer;
+}
+/*------------------------------
+--------Hero area end---------*/
+
+/******************************************
+******* Responsive design Section ********/
+
+/* iPad or tablet */
+@media only screen  and (min-width: 481px) and (max-width: 768px) {
+    
+}
+/* small screen or laptop  */
+@media only screen and (min-width:769px) {
+    header{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    button i {
+        color: black;
+        font-size: 40px;
+    }
+    .slide-1 {
+        right: 0% !important;
+        top: 30%;
+    }
+    .slide-2{
+        top: 30%;
+        left: 0% !important;
+        /* text-align: left !important; */
+    }
+    .slide-3{
+        top: 30%;
+        left:0% !important;
+        /* text-align: left !important; */
+    }
+    .carousel-caption .slide-1{
+        left: 33% !important;
+    }
+    .carousel-caption .slider-heading{
+        font-size: 60px;
+    }
+}
