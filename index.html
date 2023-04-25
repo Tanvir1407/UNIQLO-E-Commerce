@@ -37,7 +37,7 @@
       <header>
         <nav>
           <div class="row justify-content-between align-items-center">
-            <div class="col-6 col-lg-3">
+            <div class="col-4 col-lg-3">
               <a href="/"><img src="/images/uniqlo-logo.webp" alt="" /></a>
             </div>
             <div class="col-lg-6 d-none d-lg-block">
@@ -50,8 +50,9 @@
               </ul>
             </div>
             <div
-              class="col-6 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
+              class="col-8 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
             >
+              <i class="icon fa-solid fa-magnifying-glass"></i>
               <i class="icon fa-solid fa-user"></i>
               <i class="icon fa-solid fa-cart-shopping"></i>
               <i class="toggle-nav-icon d-lg-none icon fa-solid fa-bars">
@@ -273,6 +274,247 @@
     </section>
     <!------------------------------
     ------features area end-------->
+
+    <!------------------------------
+    -----products area start------->
+    <section class="product-container">
+      <div>
+        <div class="btn-box" id="myBtnContainer">
+          <button class="Btn filter-option active" data-filter="all" onclick=filterProduct(event)>
+            All
+          </button>
+          <button class="Btn filter-option" data-filter="furniture" onclick=filterProduct(event)>Furniture</button>
+          <button class="Btn filter-option" data-filter="bag" onclick=filterProduct(event)>
+            Bag
+          </button>
+          <button class="Btn filter-option" data-filter="jewellery" onclick=filterProduct(event)>
+            Jewellery
+          </button>
+          <button class="Btn filter-option" data-filter="kitchen" onclick=filterProduct(event)>
+            Kitchen Item
+          </button>
+          <button class="Btn filter-option" data-filter="electronics" onclick=filterProduct(event)>
+            Electronics
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row list">
+          <div class="card col-12 col-md-4 col-lg-3 electronics">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-1.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Simple Black Clock</h5>
+              <ul>
+                <li class="old-price">$16.00</li>
+                <li class="new-price">$12.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 furniture">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-19.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Cat House</h5>
+              <ul>
+                <li class="old-price">$33.00</li>
+                <li class="new-price">$30.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3  kitchen">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-11.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>wooden bowl</h5>
+              <ul>
+                <li class="old-price">$10.00</li>
+                <li class="new-price">$7.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 electronics">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-5.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>LED Socket</h5>
+              <ul>
+                <li class="old-price">$26.00</li>
+                <li class="new-price">$22.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 furniture">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-22.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Rocking Chair</h5>
+              <ul>
+                <li class="old-price">$116.00</li>
+                <li class="new-price">$100.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 jewellery">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-40.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Blue Diamond Air Ring</h5>
+              <ul>
+                <li class="old-price">$216.00</li>
+                <li class="new-price">$202.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 furniture">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-20.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Armchair and footrest</h5>
+              <ul>
+                <li class="old-price">$78.00</li>
+                <li class="new-price">$60.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 electronics">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-10.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Otto Fan</h5>
+              <ul>
+                <li class="old-price">$199.00</li>
+                <li class="new-price">$189.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 furniture">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-31.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Modern Leisure Outdoor </h5>
+              <ul>
+                <li class="old-price">$160.00</li>
+                <li class="new-price">$120.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 jewellery">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-39.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Divine Mercy Saint</h5>
+              <ul>
+                <li class="old-price">$1006.00</li>
+                <li class="new-price">$992.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 kitchen">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-16.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Pink Tea Kettles </h5>
+              <ul>
+                <li class="old-price">$16.00</li>
+                <li class="new-price">$12.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 jewellery">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-42.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Diamond Ring</h5>
+              <ul>
+                <li class="old-price">$916.00</li>
+                <li class="new-price">$812.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 furniture">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-25.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Dining Table Set</h5>
+              <ul>
+                <li class="old-price">$1316.00</li>
+                <li class="new-price">$1222.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 bag">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-9.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Alod bag for Men</h5>
+              <ul>
+                <li class="old-price">$114.00</li>
+                <li class="new-price">$102.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 bag">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-8.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Bamboo Cane </h5>
+              <ul>
+                <li class="old-price">$16.00</li>
+                <li class="new-price">$12.00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-12 col-md-4 col-lg-3 jewellery">
+            <div class="card-img">
+              <img class="card-img-top" src="/images/product-37.webp" alt="product">
+              <i class="icon fa-regular fa-heart"></i>
+            </div>
+            <div class="card-details">
+              <h5>Gemstone Necklaces</h5>
+              <ul>
+                <li class="old-price">$106.00</li>
+                <li class="new-price">$100.00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------
+    ------products area end-------->
 
     <!-- javascript  -->
     <script

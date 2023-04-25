@@ -11,7 +11,10 @@
 body{
     overflow-x: hidden;
 }
-
+.active{
+  border: none !important;
+  color: #ff4136 !important;
+}
 /*------------------------------
 --------Hero area start-------*/
 header {
@@ -210,6 +213,68 @@ button i {
 }
 /*------------------------------
 ------features area end-------*/
+
+
+/*------------------------------
+------product area start-------*/
+.btn-box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+.btn-box button{
+  margin: 3px;
+}
+.Btn{
+  border: none;
+  background-color: transparent;
+  padding: 5px 5px;
+  color: #636566;
+  text-transform: uppercase;
+}
+.card{
+  border: none !important;
+  padding-top: 70px;
+}
+.card-img{
+  position: relative;
+}
+.card-img i {
+  font-size: 20px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+.card-details{
+  padding-top: 30px;
+  color: #192e3e;
+}
+.card-details h5:hover{
+  color: #ff4136;
+  transition: all 0.3s ease-out 0s;
+  cursor: pointer;
+}
+.card-details ul{
+  list-style-type: none;
+  margin-left: -30px ;
+}
+.old-price, .new-price{
+  display: inline;
+  padding-right: 10px;
+}
+.old-price{
+  text-decoration: line-through;
+  color: #919191;
+}
+.new-price{
+  color: #ff4136;
+}
+.hidden {
+  display: none !important;
+}
+/*------------------------------
+-------product area end--------*/
 
 
 
