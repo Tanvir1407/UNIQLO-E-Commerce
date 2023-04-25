@@ -8,10 +8,10 @@
 ::before {
   box-sizing: border-box;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.active{
+.active {
   border: none !important;
   color: #ff4136 !important;
 }
@@ -143,101 +143,106 @@ button i {
 /*------------------------------
 -----features area start------*/
 .features-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.thumb img{
-    transition: all 300ms ease-in 0s;
+.thumb img {
+  transition: all 300ms ease-in 0s;
 }
-.banner{
-    position: relative;
+.banner {
+  position: relative;
 }
-.content{
-    position: absolute;
-    top: 30px;
-    left: 40px;
+.content {
+  position: absolute;
+  top: 30px;
+  left: 40px;
 }
-.content h6, .md-content h6{
-    color: #ff4136;
-    font-family: "Arizonia",cursive;
-    font-weight: 400;
+.content h6,
+.md-content h6 {
+  color: #ff4136;
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
 }
-.content h3,.md-content h3{
-    font-size: 22px;
-    color: #303030;
+.content h3,
+.md-content h3 {
+  font-size: 22px;
+  color: #303030;
 }
-.content a, .md-content a{
-    text-decoration: none;
-    color: #3a3a3a;
-    font-family: Dosis;
-    font-size: 14px;
-    font-weight: 400;
-    padding-right: 30px;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 0.5s ease 0s;
+.content a,
+.md-content a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-family: Dosis;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 30px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
 }
-.content a::before, .md-content a::before{
-    background: #000 none repeat scroll 0 0;
-    content: "";
-    height: 1px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transition: all 0.5s ease 0s;
-    width: 20px;
+.content a::before,
+.md-content a::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: all 0.5s ease 0s;
+  width: 20px;
 }
-.content a:hover , .md-content a:hover{
+.content a:hover,
+.md-content a:hover {
   color: #ff4136;
 }
-.content a:hover:before ,.md-content a:hover:before {
+.content a:hover:before,
+.md-content a:hover:before {
   background: #ff4136 none repeat scroll 0 0;
 }
-.second-row{
-    padding-top: 30px;
+.second-row {
+  padding-top: 30px;
 }
-.md-banner:not(:nth-child(2)){
-    border: 1px solid #e1e1e1;
+.md-banner:not(:nth-child(2)) {
+  border: 1px solid #e1e1e1;
 }
-.md-banner:nth-child(2){
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
+.md-banner:nth-child(2) {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
-.md-banner{
-    position: relative;
+.md-banner {
+  position: relative;
 }
-.md-content{
-    position: absolute;
-    top: 60px;
-    left: 20px;
+.md-content {
+  position: absolute;
+  top: 60px;
+  left: 20px;
 }
 /*------------------------------
 ------features area end-------*/
 
-
 /*------------------------------
 ------product area start-------*/
-.btn-box{
+.btn-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 50px;
 }
-.btn-box button{
+.btn-box button {
   margin: 3px;
 }
-.Btn{
+.Btn {
   border: none;
   background-color: transparent;
   padding: 5px 5px;
   color: #636566;
   text-transform: uppercase;
 }
-.card{
+.card {
   border: none !important;
   padding-top: 70px;
 }
-.card-img{
+.card-img {
   position: relative;
 }
 .card-img i {
@@ -246,28 +251,29 @@ button i {
   bottom: 15px;
   right: 10px;
 }
-.card-details{
+.card-details {
   padding-top: 30px;
   color: #192e3e;
 }
-.card-details h5:hover{
+.card-details h5:hover {
   color: #ff4136;
   transition: all 0.3s ease-out 0s;
   cursor: pointer;
 }
-.card-details ul{
+.card-details ul {
   list-style-type: none;
-  margin-left: -30px ;
+  margin-left: -30px;
 }
-.old-price, .new-price{
+.old-price,
+.new-price {
   display: inline;
   padding-right: 10px;
 }
-.old-price{
+.old-price {
   text-decoration: line-through;
   color: #919191;
 }
-.new-price{
+.new-price {
   color: #ff4136;
 }
 .hidden {
@@ -276,14 +282,82 @@ button i {
 /*------------------------------
 -------product area end--------*/
 
+/*------------------------------
+-------footer area start-------*/
+footer {
+  background: url("/images/bg.webp");
+  padding-top: 100px;
+}
 
-
-
-
-
-
-
-
+.f-box-1,
+.f-box-2,
+.f-box-3,
+.f-box-4 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-bottom: 20px !important;
+}
+.f-box-2 h1,
+.f-box-3 h1,
+.f-box-4 h4 {
+  font-size: 22px;
+}
+.f-box-1 p,
+.f-box-3 span,
+.cpoyright p 
+{
+  color: #666666;
+  font-size: 14px;
+  line-height: 26px;
+  padding-top: 30px;
+}
+.subscribe {
+  display: flex;
+}
+.f-box-2 input {
+  padding: 5px 0;
+  width: 96%;
+}
+.f-box-2 i {
+  margin-left: -1px;
+  font-size: 20px;
+  padding: 8px 13px;
+  border-top: 1px solid rgb(154, 152, 152);
+  border-right: 1px solid rgb(154, 152, 152);
+  border-bottom: 1px solid rgb(154, 152, 152);
+}
+.f-box-2 i:hover {
+  background-color: #ff4136;
+  color: white;
+  border: #ff4136;
+  transition: all 0.3s ease-out 0s;
+}
+.footer-icon-box{
+  color: #a9a7a7;
+  font-size: 20px;
+}
+.footer-icon-box i{
+  margin: 2px 10px;
+}
+.footer-icon-box i:hover{
+  color: #ff4136;
+  transition: all .5s ease-out 0s;
+  cursor: pointer;
+}
+ .row{
+  align-items: center;
+}
+.footer-link{
+  display: flex;
+  justify-content: center;
+}
+.footer-link a{
+  color: #666666;
+  padding: 0 20px;
+  text-decoration: none;
+}
+/*------------------------------
+-------footer area end--------*/
 
 
 
@@ -295,22 +369,28 @@ button i {
 ******* Responsive design Section ********/
 
 /* mobile */
-@media only screen and  (max-width: 481px) {
-    .xmt-40{
+@media only screen and (max-width: 481px) {
+  .xmt-40 {
     margin-top: 40px !important;
-    }
+  }
 }
-
-
 
 /* iPad or tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 991px) {
+  .features-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .md-content {
+    top: 20px;
+  }
+  .product-container {
+    padding-top: 50px;
+  }
 }
 
-
-
 /* small screen or laptop  */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 992px) {
   header {
     padding-left: 100px;
     padding-right: 100px;
@@ -347,13 +427,38 @@ button i {
     padding-bottom: 100px;
   }
   .content {
-    top:70px;
+    top: 70px;
     left: 70px;
   }
-  .content h3{
+  .content h3 {
     font-size: 30px;
     font-weight: 300 !important;
   }
   /*------------------------------
   ------features area end-------*/
+
+  /*------------------------------
+  ------product area start------*/
+  .Btn {
+    padding: 5px 20px;
+  }
+  .list{
+    padding-bottom: 100px;
+  }
+  /*------------------------------
+  ------product area end--------*/
+
+  /*------------------------------
+  ------footer area start--------*/
+  .f-box-2 h1,
+  .f-box-3 h1,
+  .f-box-4 h4 {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .footer-link{
+    justify-content: flex-end;
+  }
+  /*------------------------------
+  ------footer area end---------*/
 }
