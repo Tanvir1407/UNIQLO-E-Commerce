@@ -500,9 +500,98 @@ footer {
   margin: 0 2px;
   border-radius: 50%;
 }
-
+.video-section i:hover {
+  transition: all 0.3s ease-in 0s;
+  cursor: pointer;
+  color: white;
+  background-color: #ff4136;
+}
 /*------------------------------
 -------about area end--------*/
+
+/*------------------------------
+-------staff area start--------*/
+.staff-section {
+  padding: 50px 0;
+  text-align: center;
+}
+.staff-section p {
+  max-width: 500px;
+  margin: 0 auto;
+  color: #8b8b8b;
+}
+.staff-gallrey {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.team-foo {
+  position: relative;
+}
+.team-foo img {
+  transition: all 0.3s ease-in-out 0s;
+  filter: grayscale(100%);
+}
+.team--info {
+  padding: 20px 25px;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  left: calc(50% - 40%);
+  color: white;
+  background-color: #000000ad;
+  transform: translateY(0) scaleY(0);
+  transition: transform 0.8s cubic-bezier(0.4, 0.2, 0.1, 1) 0s;
+}
+.team--info h3 {
+  font-size: 20px;
+  transition: color 0.5s ease-in-out 0s;
+}
+.team--info i {
+  padding: 0 10px;
+  transition: color 0.5s ease-in-out 0s;
+}
+.team--info h3:hover,
+.team--info i:hover {
+  color: #ff4136;
+}
+.team-foo:hover .team--info {
+  transform: translateY(0) scaleY(1);
+}
+.team-foo:hover img {
+  filter: grayscale(0%) !important;
+}
+/*------------------------------
+---------staff area end--------*/
+
+.review-section {
+  background-color: #f4f4f4;
+  padding-top: 50px;
+}
+.review-section h3{
+  text-align: center;
+}
+.review-section div {
+  padding: 10px 0px;
+}
+
+.card {
+  border: none;
+  margin: 20px;
+}
+
+.user-content p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #636566;
+}
+
+.ratings i {
+  color: blue;
+}
+/*------------------------------
+---------staff area end--------*/
+/*------------------------------
+---------staff area end--------*/
 
 /******************************************
 ******* Responsive design Section ********/
@@ -526,7 +615,7 @@ footer {
   .product-container {
     padding-top: 50px;
   }
-    .video-section iframe {
+  .video-section iframe {
     height: 380px;
     width: 600px;
   }
@@ -540,6 +629,12 @@ footer {
     background-color: rgba(255, 255, 255, 0.541);
     margin: 0 20px;
     border-radius: 50%;
+  }
+  .team--info h3 {
+    font-size: 16px;
+  }
+  .team--info i {
+    padding: 0 5px;
   }
 }
 
