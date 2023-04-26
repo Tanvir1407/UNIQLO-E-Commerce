@@ -228,5 +228,18 @@
 }
 /*------------------------------
 ---------staff area end--------*/
+
+
 /*------------------------------
----------staff area end--------*/
+---------brand area start--------*/
+.brand{
+  padding: 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand div{
+  padding: 20px 20px;
+}
+/*------------------------------
+---------brand area end--------*/
