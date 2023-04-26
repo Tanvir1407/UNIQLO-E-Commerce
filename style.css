@@ -388,7 +388,8 @@ footer {
   line-height: 30px;
   margin-bottom: 20px;
 }
-.info-div a, .info-div span{
+.info-div a,
+.info-div span {
   text-decoration: none;
   color: #666666;
   font-size: 18px;
@@ -397,12 +398,12 @@ footer {
 .info-div span {
   padding: 0 10px;
 }
-.info-div a:hover{
+.info-div a:hover {
   cursor: pointer;
   color: #ff4136;
-  transition: all , .3s ease-in 0s;
+  transition: all, 0.3s ease-in 0s;
 }
-.welcome-text-box{
+.welcome-text-box {
   text-align: center;
   padding: 100px 0;
 }
@@ -413,20 +414,27 @@ footer {
   font-weight: 400;
   font-size: 15px;
 }
-.welcome-text-box button{
+.welcome-text-box button {
   margin-top: 20px;
   text-transform: uppercase;
   border: 1px solid #c5c5c5;
   color: #979797;
 }
-.welcome-text-box button:hover{
+.welcome-text-box button:hover {
   background-color: #ff4136;
   color: #ffffff;
 }
-.video-bg{
+
+/* info are */
+.info-section {
+  /* position: relative; */
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+.video-bg {
   position: relative;
 }
-.video-bg i{
+.video-bg i {
   position: absolute;
   font-size: 20px;
   background-color: white;
@@ -435,44 +443,66 @@ footer {
   top: calc(50% - 35px);
   left: calc(50% - 35px);
 }
-.video-bg i:hover{
+.video-bg i:hover {
   color: #ff4136;
   cursor: pointer;
-  transition: all .3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
 }
-.info-section{
-  background-color: #f4f4f4;
-}
-.info-heading{
+.info-heading {
   color: #505050;
 }
-.info-row{
+.info-row {
   padding-top: 30px;
 }
-.info-box{
+.info-box {
   display: flex;
 }
-.info-box i{
+.info-box i {
   font-size: 40px;
   color: #505050;
 }
-.info-box-text{
+.info-box-text {
   padding-left: 20px;
   color: #505050;
 }
-.info-box-text h3{
+.info-box-text h3 {
   font-size: 22px;
 }
-.info-box-text p{
+.info-box-text p {
   font-size: 14px;
+}
+/* video */
+.video-section {
+  position: absolute;
+  top: 0;
+  /* display: none; */
+}
+.video-section .video-box {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-section iframe {
+  height: calc(100% - 70%);
+}
+.video {
+  position: relative;
+}
+.video-section i {
+  position: absolute;
+  top: -20px;
+  padding: 5px 7px;
+  background-color: rgba(255, 255, 255, 0.541);
+  margin: 0 2px;
+  border-radius: 50%;
 }
 
 /*------------------------------
 -------about area end--------*/
-
-
-
-
 
 /******************************************
 ******* Responsive design Section ********/
@@ -495,6 +525,21 @@ footer {
   }
   .product-container {
     padding-top: 50px;
+  }
+    .video-section iframe {
+    height: 380px;
+    width: 600px;
+  }
+  .video {
+    position: relative;
+  }
+  .video-section i {
+    position: absolute;
+    top: -40px;
+    padding: 5px 7px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 0 20px;
+    border-radius: 50%;
   }
 }
 
@@ -575,5 +620,23 @@ footer {
 
   .welcome-text-box p {
     width: 53%;
+  }
+
+  /* video */
+
+  .video-section iframe {
+    height: 380px;
+    width: 600px;
+  }
+  .video {
+    position: relative;
+  }
+  .video-section i {
+    position: absolute;
+    top: -40px;
+    padding: 5px 7px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 0 20px;
+    border-radius: 50%;
   }
 }
