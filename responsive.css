@@ -1,0 +1,143 @@
+
+/******************************************
+******* Responsive design Section ********/
+
+/* mobile */
+@media only screen and (max-width: 481px) {
+  .xmt-40 {
+    margin-top: 40px !important;
+  }
+}
+
+/* iPad or tablet */
+@media only screen and (min-width: 481px) and (max-width: 991px) {
+  .features-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .md-content {
+    top: 20px;
+  }
+  .product-container {
+    padding-top: 50px;
+  }
+  .video-section iframe {
+    height: 380px;
+    width: 600px;
+  }
+  .video {
+    position: relative;
+  }
+  .video-section i {
+    position: absolute;
+    top: -40px;
+    padding: 5px 7px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 0 20px;
+    border-radius: 50%;
+  }
+  .team--info h3 {
+    font-size: 16px;
+  }
+  .team--info i {
+    padding: 0 5px;
+  }
+}
+
+/* small screen or laptop  */
+@media only screen and (min-width: 992px) {
+  header {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  button i {
+    color: black;
+    font-size: 40px;
+  }
+  .slide-1 {
+    right: 0% !important;
+    top: 30%;
+  }
+  .slide-2 {
+    top: 30%;
+    left: 0% !important;
+  }
+  .slide-3 {
+    top: 30%;
+    left: 0% !important;
+  }
+  .carousel-caption .slide-1 {
+    left: 33% !important;
+  }
+  .carousel-caption .slider-heading {
+    font-size: 60px;
+  }
+
+  /*------------------------------
+  -----features area start------*/
+  .features-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .content {
+    top: 70px;
+    left: 70px;
+  }
+  .content h3 {
+    font-size: 30px;
+    font-weight: 300 !important;
+  }
+  /*------------------------------
+  ------features area end-------*/
+
+  /*------------------------------
+  ------product area start------*/
+  .Btn {
+    padding: 5px 20px;
+  }
+  .list {
+    padding-bottom: 100px;
+  }
+  /*------------------------------
+  ------product area end--------*/
+
+  /*------------------------------
+  ------footer area start--------*/
+  .f-box-2 h1,
+  .f-box-3 h1,
+  .f-box-4 h4 {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .footer-link {
+    justify-content: flex-end;
+  }
+  /*------------------------------
+  ------footer area end---------*/
+
+  /* about page*/
+
+  .welcome-text-box p {
+    width: 53%;
+  }
+
+  /* video */
+
+  .video-section iframe {
+    height: 380px;
+    width: 600px;
+  }
+  .video {
+    position: relative;
+  }
+  .video-section i {
+    position: absolute;
+    top: -40px;
+    padding: 5px 7px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin: 0 20px;
+    border-radius: 50%;
+  }
+}
