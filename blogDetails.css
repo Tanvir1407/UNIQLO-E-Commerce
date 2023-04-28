@@ -1,4 +1,4 @@
-.blogDetails{
+.blogDetails {
   overflow-x: hidden;
 }
 .img-div {
@@ -19,8 +19,8 @@
   color: #343434;
   font-size: 36px;
   font-weight: 400;
-line-height: 30px;
-margin-bottom: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 .info-div a,
 .info-div span {
@@ -38,64 +38,184 @@ margin-bottom: 20px;
   transition: all, 0.3s ease-in 0s;
 }
 
-
 /* /////// */
-.post-tumb{
-    position: relative;
+.blog__post{
+  margin: 100px 0 ;
 }
-.date{
-    position: absolute;
-    color: #ffffff;
-    top: 15px;
-    left: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #686868;
-    align-items: center;
-    padding: 5px 5px;
+.post-tumb {
+  position: relative;
 }
-.date h1{
-    font-size: 27px;
-    margin: 0 !important;
+.date {
+  position: absolute;
+  color: #ffffff;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #686868;
+  align-items: center;
+  padding: 5px 5px;
 }
-.date p{
-    font-size: 10px;
-    margin-bottom: 2px !important;
-    font-weight: 300;
+.date h1 {
+  font-size: 27px;
+  margin: 0 !important;
+}
+.date p {
+  font-size: 10px;
+  margin-bottom: 2px !important;
+  font-weight: 300;
 }
 
-.post-details h3{
-    font-size: 18px;
-    padding-top: 37px;
-    text-transform: capitalize;
+.post-details h3 {
+  font-size: 18px;
+  padding-top: 37px;
+  text-transform: capitalize;
 }
-.post-details .author{
-    margin-top: 20px;
-    color: #707070;
-    font-size: 12px;
+.post-details .author {
+  margin-top: 20px;
+  color: #707070;
+  font-size: 12px;
 }
-.post-text{
-    color: #8f8f8f;
-    line-height: 27px;
-    font-size: 14px;
+.post-text {
+  color: #8f8f8f;
+  line-height: 27px;
+  font-size: 14px;
 }
 blockquote {
-    color: #414141;
-    border-left: medium none transparent;
-    font-size: 16px;
-    line-height: 27px;
-    margin: 26px 40px 26px 42px !important;
-    padding: 0 0 0 19px;
-    position: relative;
+  color: #414141;
+  border-left: medium none transparent;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 26px 40px 26px 42px !important;
+  padding: 0 0 0 19px;
+  position: relative;
 }
 
 blockquote::before {
-    background: #4c4c4c none repeat scroll 0 0;
-    content: "";
-    font-size: 30px;
-    height: 90%;
-    left: 0;
-    position: absolute;
-    top: 9px;
-    width: 2px;
+  background: #4c4c4c none repeat scroll 0 0;
+  content: "";
+  font-size: 30px;
+  height: 90%;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 2px;
+}
+.tags {
+  text-transform: uppercase;
+  color: #666666;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.tags span {
+  font-size: 12px;
+  padding: 3px 7px;
+  border: 1px solid;
+  margin: 0 10px;
+  transition: color 0.3s ease-in 0s;
+}
+.tags span:hover {
+  color: #252525;
+}
+
+.comments--inner {
+  margin: 40px 0;
+}
+.comments--inner h2,
+.reply-container h2 {
+  color: #4e4e4e;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.comments--inner h2::before,
+.reply-container h2::before {
+  background: #555555 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.comments--inner {
+  margin-top: 50px;
+}
+.single-comment {
+  margin: 20px 0px;
+  display: flex;
+}
+.comment-text {
+  padding-left: 20px;
+}
+.comment-title-date {
+  display: flex;
+  justify-content: space-between;
+}
+.comment-title-date h5 {
+  color: #414141;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.reply-date {
+  text-transform: uppercase;
+  color: #414141;
+  font-weight: 200;
+  font-size: 16px;
+}
+.comment-text p {
+  font-size: 14px;
+  color: #666666;
+}
+.reply-container h2{
+  margin-bottom: 30px;
+}
+.input-box{
+  margin-bottom: 20px;
+  /* padding: 0 !important; */
+}
+.reply-input input {
+  width: 100%;
+  padding: 7px 20px;
+}
+.reply-input input:focus{
+  outline: none;
+}
+textarea {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #666666;
+  border-radius: 0;
+  color: #3c3c3c;
+  font-size: 16px;
+  margin-bottom: 50px;
+  min-height: 160px;
+  padding: 15px 20px 20px;
+  resize: none !important;
+  width: 100%;
+}
+textarea:focus{
+  outline: none;
+}
+.reply-input button{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0 45px;
+  line-height: 43px;
+  border:  1px solid #666666 !important;
+  background-color: transparent;
+  color: #666666;
+  margin-top: 20px;
+  transition: all .3s ease-in-out  0s;
+}
+.reply-input button:hover{
+  background-color: #ff4136;
+  color: white;
+  border: 1px solid #ff4136 !important;
+}
+
+
+.blog-details-right-side{
+  background-color: aquamarine;
 }

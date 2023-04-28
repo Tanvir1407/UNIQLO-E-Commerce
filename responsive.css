@@ -56,6 +56,9 @@
   .map {
     height: 500px !important;
   }
+  .single-reply{
+    margin-left: 70px !important;
+  }
 }
 
 /* small screen or laptop  */
@@ -177,5 +180,8 @@
     position: absolute;
     top: 9px;
     width: 2px;
+  }
+  .single-reply{
+    margin-left: 70px !important;
   }
 }
