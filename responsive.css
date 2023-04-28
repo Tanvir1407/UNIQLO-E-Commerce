@@ -184,4 +184,10 @@
   .single-reply{
     margin-left: 70px !important;
   }
+  .comment-title-date {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
 }
+}
+
