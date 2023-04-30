@@ -40,10 +40,13 @@
   transition: all, 0.3s ease-in 0s;
 }
 
-
+.cart-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .cart-data-info{
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 .cart-header{
     display: flex;
@@ -103,16 +106,21 @@
 }
 
 .cart-btn > button {
-    margin-right: 10px;
+    margin-right: 0px;
 }
-.cart-btn > button ,.apply{
+.cart-btn > button,
+.apply,
+.procces-btn{
     border: none;
-    padding: 8px 15px;
+    padding: 8px 14px;
     color: white;
     background-color: black;
+    text-transform: uppercase;
     transition:all .4s ease 0s;
 }
-.cart-btn > button:hover, .apply:hover{
+.cart-btn > button:hover,
+.apply:hover,
+.procces-btn:hover{
     background-color: #ff4136;
 }
 .coupon-text{
@@ -129,4 +137,11 @@
 }
 .coupon-input > input:focus{
     outline: none;
+}
+.cart-box p{
+    color: #666666;
+    text-transform: uppercase;
+}
+.total{
+    font-size: 20px;
 }

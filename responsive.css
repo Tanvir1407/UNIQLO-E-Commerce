@@ -10,6 +10,16 @@
   .spcial-input-right {
     padding: 0 !important;
   }
+  .cart-summery{
+    margin-top: 50px;
+  }
+  .cart-summery > h1{
+    padding-bottom: 10px;
+    border-bottom:  1px solid ;
+  }
+  .cart-summery-box{
+    margin-top: 30px;
+  }
 }
 
 /* iPad or tablet */
