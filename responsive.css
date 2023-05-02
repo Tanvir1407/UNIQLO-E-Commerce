@@ -260,5 +260,13 @@
 .brand-name{
     color: #666666;
 }
+
+/* checkout section  */
+.checkout-from-container{
+  width: 70%;
+}
+.cart-input{
+  padding: 0 10px;
+}
 }
 

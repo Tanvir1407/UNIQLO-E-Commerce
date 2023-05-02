@@ -1,0 +1,114 @@
+/*------------------------------
+-------about area end--------*/
+.checkout {
+  overflow-x: hidden;
+}
+.img-div {
+  position: relative;
+}
+.img-div img {
+  height: 300px;
+}
+.info-div {
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-div h2 {
+  color: #343434;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.info-div a,
+.info-div span {
+  text-decoration: none;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+}
+.info-div span {
+  padding: 0 10px;
+}
+.info-div a:hover {
+  cursor: pointer;
+  color: #ff4136;
+  transition: all, 0.3s ease-in 0s;
+}
+.checkout-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.checkout-heading {
+  font-size: 22px;
+  color: #3b3b3b;
+}
+form > input,
+form > textarea,
+form > select,
+.card-input > input {
+  margin: 10px;
+  padding: 10px;
+  width: 95%;
+  color: #666666;
+}
+form > input:focus,
+form > textarea:focus,
+form > select:focus {
+  outline: none;
+}
+
+.payment-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pay-method {
+  background-color: #f1f1f1;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.pay-method > p,
+.Card {
+  padding-left: 15px;
+  font-size: 17px;
+  color: #666666;
+}
+.pay-image > img {
+  padding-right: 5px;
+}
+
+.pay-method-box {
+  margin-top: 30px;
+}
+.card-input{
+    background-color: #f1f1f1f1;
+    margin: 20px 10px;
+    width: 95%;
+}
+.card-validation > input {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  color: #666666;
+}
+
+.order-btn{
+    border: none;
+    background-color: #ff4136;
+    padding: 10px ;
+    color: white;
+    font-size: 20px;
+    width: 95%;
+    margin: 10px;
+    transition: all .3s ease 0s;
+}
+.order-btn:hover{
+    background-color: #24ca8a;
+}
