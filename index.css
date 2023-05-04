@@ -1,0 +1,161 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  /* overflow-x: hidden; */
+}
+.active {
+  border: none !important;
+  color: #ff4136 !important;
+}
+/*------------------------------
+-----features area start------*/
+.features-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.thumb img {
+  transition: all 300ms ease-in 0s;
+}
+.banner {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.content h6,
+.md-content h6 {
+  color: #ff4136;
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+}
+.content h3,
+.md-content h3 {
+  font-size: 22px;
+  color: #303030;
+}
+.content a,
+.md-content a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-family: Dosis;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 30px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.content a::before,
+.md-content a::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: all 0.5s ease 0s;
+  width: 20px;
+}
+.content a:hover,
+.md-content a:hover {
+  color: #ff4136;
+}
+.content a:hover:before,
+.md-content a:hover:before {
+  background: #ff4136 none repeat scroll 0 0;
+}
+.second-row {
+  padding-top: 30px;
+}
+.md-banner:not(:nth-child(2)) {
+  border: 1px solid #e1e1e1;
+}
+.md-banner:nth-child(2) {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+.md-banner {
+  position: relative;
+}
+.md-content {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+/*------------------------------
+------features area end-------*/
+
+/*------------------------------
+------product area start-------*/
+.btn-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+.btn-box button {
+  margin: 3px;
+}
+.Btn {
+  border: none;
+  background-color: transparent;
+  padding: 5px 5px;
+  color: #636566;
+  text-transform: uppercase;
+}
+.card {
+  border: none !important;
+  padding-top: 70px;
+}
+.card-img {
+  position: relative;
+}
+.card-img i {
+  font-size: 20px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+.card-details {
+  padding-top: 30px;
+  color: #192e3e;
+}
+.card-details h5:hover {
+  color: #ff4136;
+  transition: all 0.3s ease-out 0s;
+  cursor: pointer;
+}
+.card-details ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
+.old-price,
+.new-price {
+  display: inline;
+  padding-right: 10px;
+}
+.old-price {
+  text-decoration: line-through;
+  color: #919191;
+}
+.new-price {
+  color: #ff4136;
+}
+.hidden {
+  display: none !important;
+}
+/*------------------------------
+-------product area end--------*/
+
+/*************************Home Page Design End**************************/
+

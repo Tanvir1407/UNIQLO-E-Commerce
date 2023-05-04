@@ -1,3 +1,5 @@
+
+
 ////// mobile responsive nav menu ////////
 const ToggleNav = document.querySelector(".toggle-nav-icon");
 const Open = document.querySelector(".toggle-nav");
@@ -14,12 +16,11 @@ ToggleNav.addEventListener("click", function () {
   }
 });
 
-
 ///////////// video popup button //////////////
 const video = document.querySelector(".video-section");
 const close = document.querySelector(".close");
 
-close.addEventListener("click", function () {
+close?.addEventListener("click", function () {
   video.classList.replace("d-block", "d-none");
 });
 
@@ -58,3 +59,4 @@ function filterProduct(e) {
     });
   }
 }
+
