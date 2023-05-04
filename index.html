@@ -35,46 +35,74 @@
   <body>
     <!------------------------------
     -------header area start------->
-      <header>
-        <nav>
-          <div class="row justify-content-between align-items-center">
-            <div class="col-4 col-lg-3">
-              <a href="/"><img src="/images/uniqlo-logo.webp" alt="" /></a>
+    <header>
+      <nav>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-4 col-lg-3">
+            <a href="/"><img src="/images/uniqlo-logo.webp" alt="" /></a>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <ul class="nav-link">
+              <li><a href="/">Home</a></li>
+              <li><a href="/">Shop</a></li>
+              <li><a href="/About.html">About</a></li>
+              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-8 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
+          >
+            <i
+              class="icon fa-solid fa-magnifying-glass"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            ></i>
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" style="margin-top: 300px;">
+                <div class="modal-content">
+                  <div class="modal-body search-box">
+                    <input type="text" placeholder="Search your need...">
+                    <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="modal-footer">
+                    <h5>Shopping upto 1000 TAKA, GET FREE DELIVERY</h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 d-none d-lg-block">
-              <ul class="nav-link">
+            <i class="icon fa-solid fa-user user-nav-icon">
+              <ul class="user-nav-list">
+                <li><a href="">My Account</a></li>
+                <li><a href="">My Order</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">SignOut</a></li>
+              </ul>
+            </i>
+            <i class="icon shopping-cart fa-solid fa-cart-shopping">
+              <span class="cart-number">3</span>
+            </i>
+            <i class="toggle-nav-icon d-lg-none icon fa-solid fa-bars">
+              <!-- nav menu for mobile device -->
+              <ul class="toggle-nav d-none">
                 <li><a href="/">Home</a></li>
                 <li><a href="/">Shop</a></li>
                 <li><a href="/About.html">About</a></li>
                 <li><a href="/blog.html">Blog</a></li>
                 <li><a href="/contact.html">Contact</a></li>
               </ul>
-            </div>
-            <div
-              class="col-8 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
-            >
-              <i class="icon fa-solid fa-magnifying-glass"></i>
-              <i class="icon fa-solid fa-user">
-                <ul>
-                  <li><a href="">Login</a></li>
-                  <li><a href="">Login</a></li>
-                </ul>
-              </i>
-              <i class="icon fa-solid fa-cart-shopping"></i>
-              <i class="toggle-nav-icon d-lg-none icon fa-solid fa-bars">
-                <!-- nav menu for mobile device -->
-                <ul class="toggle-nav d-none">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/">Shop</a></li>
-                  <li><a href="/About.html">About</a></li>
-                  <li><a href="/blog.html">Blog</a></li>
-                  <li><a href="/contact.html">Contact</a></li>
-                </ul>
-              </i>
-            </div>
+            </i>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
     <!------------------------------
     -------header area end--------->
 
@@ -111,7 +139,7 @@
               />
               <div class="carousel-caption slide-2">
                 <h5 class="slider-heading">
-                  New Product <span>Collection</span>
+                  New Jeans <span>Collection</span>
                 </h5>
                 <a class="carousel-link" href="/">SHOP NOW</a>
               </div>
@@ -124,7 +152,7 @@
               />
               <div class="carousel-caption slide-3">
                 <h5 class="slider-heading">
-                  New Product <span>Collection</span>
+                  New Women <span>Collection</span>
                 </h5>
                 <a class="carousel-link" href="/">SHOP NOW</a>
               </div>
