@@ -1,0 +1,89 @@
+/*------------------------------
+-------about area end--------*/
+.product-details{
+  overflow-x: hidden;
+}
+.img-div {
+  position: relative;
+}
+.img-div img {
+  height: 300px;
+}
+.info-div {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-div h2 {
+  color: #343434;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.info-div a,
+.info-div span {
+  text-decoration: none;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+}
+.info-div span {
+  padding: 0 10px;
+}
+.info-div a:hover {
+  cursor: pointer;
+  color: #ff4136;
+  transition: all, 0.3s ease-in 0s;
+}
+
+/* product detail section  */
+.product-details-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.side-img-box img:not(:last-child){
+    margin-bottom: 10px;
+}
+.detail-info{
+    margin-left: 20px;
+}
+.detail-heading{
+    font-size: 30px;
+}
+.detail-rating-box {
+    margin-bottom: 20px;
+}
+.details-info-text{
+    color: #666666;
+    font-size: 16px;
+}
+.detail-rating-box i{
+    color: #FFDF00;
+}
+.details-color-list, .details-size-list{
+    list-style-type: none;
+    display: flex;
+    padding: 0 !important;
+}
+.details-color-list li , .details-size-list li{
+    margin-right: 10px;
+}
+.details-color-list li::before{
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #ff4136;
+}
+.details-price{
+    
+}
+.details-quantity input{
+    width: 25px;
+    padding-left:5px;
+}

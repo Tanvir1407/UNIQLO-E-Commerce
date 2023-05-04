@@ -20,6 +20,14 @@
   .cart-summery-box{
     margin-top: 30px;
   }
+  .side-img-box img{
+    width: 70px;
+    height: 70px;
+  }
+  .details-big-image img{
+    width: 260px;
+    height: 310px;
+  }
 }
 
 /* iPad or tablet */
