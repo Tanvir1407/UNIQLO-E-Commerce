@@ -123,7 +123,7 @@ body {
 .card-img i {
   font-size: 20px;
   position: absolute;
-  bottom: 15px;
+  top: 15px;
   right: 10px;
 }
 .card-details {
@@ -150,6 +150,18 @@ body {
 }
 .new-price {
   color: #ff4136;
+}
+.cart-btn{
+  color: #666666;
+  border: 1px solid #919191;
+  background-color: transparent;
+  width: 100%;
+  padding: 5px 0px;
+  transition: all .4s ease-in-out 0s;
+}
+.cart-btn:hover{
+  color: #ff4136;
+  border: 1px solid #ff4136;
 }
 .hidden {
   display: none !important;

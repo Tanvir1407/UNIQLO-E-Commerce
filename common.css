@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 /*------------------------------
 --------Hero area start-------*/
 header {
@@ -34,7 +38,9 @@ header {
   cursor: pointer;
   color: rgb(251, 59, 59) !important;
 }
-
+.cart-link{
+  color: #666666;
+}
 .search-box input {
   width: 100%;
   padding: 10px 10px;
@@ -89,6 +95,7 @@ header {
 }
 .shopping-cart{
   position: relative;
+  border: none !important;
 }
 .cart-number{
   position: absolute;
@@ -273,3 +280,24 @@ footer {
 }
 /*------------------------------
 -------footer area end--------*/
+
+.scroll-bar a{
+  color: #666666;
+  font-size: 22px;
+  padding: 7px 15px;
+  border-radius: 50%;
+  background-color: #66666628;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99999;
+  transition: all .2s ease-in-out 0s;
+  cursor: pointer;
+}
+.scroll-bar a:hover{
+  color: #ff4136;
+  background-color: #66666648;
+  font-size: 25px;
+  padding: 7px 17px; 
+  right: 18px;
+}

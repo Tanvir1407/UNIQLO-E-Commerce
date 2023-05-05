@@ -33,50 +33,100 @@
     />
   </head>
   <body>
-    <!------------------------------
-    --------Hero area start-------->
-    <section>
-      <header>
+      <!------------------------------
+    -------header area start------->
+    <header>
         <nav>
-          <div class="row justify-content-between align-items-center">
-            <div class="col-4 col-lg-3">
-              <a href="/"><img src="/images/uniqlo-logo.webp" alt="" /></a>
+            <div class="row justify-content-between align-items-center">
+                <!-- header logo  -->
+                <div class="col-4 col-lg-3">
+                    <a href="/"><img src="/images/uniqlo-logo.webp" alt="" /></a>
+                </div>
+                <!-- nav menu for desktop  -->
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="nav-link">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Shop</a></li>
+                        <li><a href="/About.html">About</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div
+                  class="col-8 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
+                >
+
+                    <!-- Search icon  -->
+                    <i
+                      class="icon fa-solid fa-magnifying-glass"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    ></i>
+                    <!-- Search modal  -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                          <div class="modal-dialog" style="margin-top: 260px">
+                              <div class="modal-content">
+                                
+                                  <div class="modal-body search-box">
+                                      <input type="text" placeholder="Search your need..." />
+                                      <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                                  </div>
+
+                                  <div class="modal-footer">
+                                      <h5>Shopping upto 1000 TAKA, GET FREE DELIVERY</h5>
+                                  </div>
+
+                              </div>
+                          </div>
+                    </div>
+
+                    <!-- user icon -->
+                    <i class="icon fa-solid fa-user user-nav-icon">
+                        <ul class="user-nav-list">
+                            <!-- user menu list -->
+                            <li><a href="/">My Account</a></li>
+                            <li><a href="/">My Order</a></li>
+                            <li><a href="/wishlist.html">Wishlist</a></li>
+                            <li><a href="/login-register.html">Login</a></li>
+                            <li><a href="/">SignOut</a></li>
+                        </ul>
+                    </i>
+
+                    <!-- cart icon -->
+                    <a class="cart-link" href="/cart.html">
+                      <i class="icon shopping-cart fa-solid fa-cart-shopping">
+                      <span class="cart-number">3</span>
+                    </i>
+                    </a>
+
+                    <!-- bar icon -->
+                    <i class="toggle-nav-icon d-lg-none icon fa-solid fa-bars">
+                      <!-- nav menu for mobile device -->
+                        <ul class="toggle-nav d-none">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Shop</a></li>
+                            <li><a href="/About.html">About</a></li>
+                            <li><a href="/blog.html">Blog</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </i>
+                </div>
             </div>
-            <div class="col-lg-6 d-none d-lg-block">
-              <ul class="nav-link">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Shop</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/">Contact</a></li>
-              </ul>
-            </div>
-            <div
-              class="col-8 col-lg-3 d-flex justify-content-end align-items-center flex-wrap nav_icon_box"
-            >
-              <i class="icon fa-solid fa-magnifying-glass"></i>
-              <i class="icon fa-solid fa-user"></i>
-              <i class="icon fa-solid fa-cart-shopping"></i>
-              <i class="toggle-nav-icon d-lg-none icon fa-solid fa-bars">
-                <ul class="toggle-nav d-none">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/">Shop</a></li>
-                  <li><a href="/About.html">About</a></li>
-                  <li><a href="/blog.html">Blog</a></li>
-                  <li><a href="/contact.html">Contact</a></li>
-                </ul>
-              </i>
-            </div>
-          </div>
         </nav>
-      </header>
-    </section>
+    </header>
     <!------------------------------
-    --------Hero area end---------->
+    -------header area end--------->
 
     <!------------------------------
     ---contact heading area star--->
-    <section class="product-details">
+    <section class="product-details" id="section-1">
       <div class="img-div">
         <img src="/images/bg.webp" alt="" />
         <div class="info-div">
@@ -219,6 +269,18 @@
     </footer>
     <!------------------------------
     -------footer area end--------->
+
+    <!------------------------------
+    -----scrollbar area start------>
+    <section>
+      <div class="scroll-bar">
+        <a href="#section-1">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
+    <!------------------------------
+    ------scrollbar area end------->
 
     <!-- javascript  -->
     <script
