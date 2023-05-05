@@ -77,6 +77,10 @@
   .single-reply{
     margin-left: 70px !important;
   }
+  /* login page */
+.tab-content{
+  width: 400px;
+}
 }
 
 /* small screen or laptop  */
@@ -275,6 +279,10 @@
 }
 .cart-input{
   padding: 0 10px;
+}
+/* login page */
+.tab-content{
+  width: 400px;
 }
 }
 

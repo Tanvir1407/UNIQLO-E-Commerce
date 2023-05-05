@@ -11,8 +11,95 @@
 
 
 .login_register{
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.toggle-btn{
+  border: none !important;
+  background-color: transparent !important;
+  outline: none !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+#pills-home-tab:focus , #pills-profile-tab:focus{
+}
+ .active{
+  color: #ff4136;
+}
+.field-login {
+  margin-top: 20px;
+}
+.field-login .filed{
+  width: 100%;
+  margin: 5px 0px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #666666;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.field-login .filed:focus{
+  outline: none !important;
+}
+
+.check-box{
+  font-size: 16px;
+}
+#check-1,#check-2{
+  color: #666666 !important;
+}
+
+.login-btn{
+  margin-top: 20px;
+  background-color: none;
+  padding: 7px 40px;
+  color: #666666;
+  background-color: transparent;
+  border: 1px solid #666666;
+  transition: all .3s ease-in-out 0s;
+}
+.login-btn:hover{
+  color: white;
+  background-color: #ff4136;
+  border: 1px solid #ff4136;
+}
+
+.social-login{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-login h3{
+  font-size: 16px;
+  color: #666666;
+}
+.social-login .fa-brands{
+  margin: 10px;
+}
+.social-login .fa-facebook-f{
+  color: white;
+  background-color: #3b5998;
+  padding: 10px 15px;
+}
+.social-login .fa-twitter{
+  color: white;
+  background-color:#1DA1F2;
+  padding: 10px 10px;
+}
+.social-login .fa-instagram{
+  color: white;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  padding: 10px 10px;
+}
+.social-login .fa-google{
+  color: white;
+  background-color: #db3236;
+  padding: 10px 10px;
 }
