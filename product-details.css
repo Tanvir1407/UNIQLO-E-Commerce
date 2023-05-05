@@ -1,3 +1,14 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 /*------------------------------
 -------about area end--------*/
 .product-details{
@@ -12,7 +23,7 @@
 .info-div {
   position: absolute;
   top: calc(50% - 35px);
-  left: calc(50% - 100px);
+  left: calc(50% - 140px);
   display: flex;
   flex-direction: column;
   align-items: center;
