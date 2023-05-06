@@ -55,9 +55,9 @@ margin-bottom: 20px;
 
 /*-------------------------------
 ----blog post design start-----*/
-
-.row > div{
-  padding: 0 !important;
+.container{
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .blog-card{
     position: relative;

@@ -2,6 +2,7 @@ html{
   scroll-behavior: smooth !important;
 }
 
+
 /*------------------------------
 --------Hero area start-------*/
 header {
@@ -26,7 +27,7 @@ header {
 .nav-link a {
   transition: all 0.3s ease-out 0s;
   text-decoration: none;
-  color: rgb(189, 188, 188);
+  color: #9c9b9b;
 }
 .nav_icon_box i {
   font-size: 22px;
@@ -36,10 +37,10 @@ header {
 .icon:hover {
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  color: rgb(251, 59, 59) !important;
+  color: #ff4136 !important;
 }
 .cart-link{
-  color: #666666;
+  color: #9c9b9b;
 }
 .search-box input {
   width: 100%;

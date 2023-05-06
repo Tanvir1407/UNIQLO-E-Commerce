@@ -9,7 +9,9 @@
   box-sizing: border-box;
 }
 
-
+.login-regiter-section{
+  margin-bottom: 50px;
+}
 .login_register{
     margin-top: 70px;
     display: flex;
